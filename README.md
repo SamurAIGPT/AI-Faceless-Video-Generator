@@ -1,14 +1,15 @@
-# Faceless-Video-Generator
+# Faceless Video Generator
 
-Generate a video script and a talking face completely with AI
+Generate a video script, voice and a talking face completely with AI
 
 ## Overview
 
-Faceless-Video-Generator is a project that leverages the power of AI to create talking face videos based on a given script. Using `sadtalker` for face animation and OpenAI's language model to generate scripts, this project provides an end-to-end solution for generating personalized videos.
+Faceless Video Generator is a project that leverages the power of AI to create talking face videos based on just a topic. Using `sadtalker` for face animation, gTTS for AI voice and OpenAI's language model to generate scripts, this project provides an end-to-end solution for generating personalized videos.
 
 ## Features
 
 - **Script Generation:** Generate a video script on any topic using OpenAI.
+- **AI Voice:** Generate voice for the script using gTTS
 - **Face Animation:** Create a talking avatar using `sadtalker`.
 - **Easy to Use:** Run the Jupyter notebook, enter the topic name, upload or select an avatar, and get a video output.
 
@@ -44,6 +45,7 @@ To use the Faceless-Video-Generator, follow these steps:
 - Python 3.x
 - Jupyter Notebook
 - `sadtalker`
+- gTTS
 - OpenAI API key (for script generation)
 
 ## Contributing
