@@ -14,7 +14,7 @@ Faceless-Video-Generator is a project that leverages the power of AI to create t
 
 ## Demo
 
-![Demo Video](demo/demo s1.mp4)
+![Demo Video](Demo/Demo 1.mp4)
 
 ## Installation
 
