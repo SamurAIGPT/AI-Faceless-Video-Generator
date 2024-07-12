@@ -66,3 +66,11 @@ This project is licensed under the MIT License.
 For any questions or support, please open an issue on the [GitHub repository](https://github.com/SamurAIGPT/Faceless-Video-Generator).
 
 Enjoy creating your personalized talking face videos!
+
+### Other useful Video AI Projects
+
+[Text to Video AI](https://github.com/SamurAIGPT/Text-To-Video-AI)
+
+[AI Youtube Shorts Generator](https://github.com/SamurAIGPT/AI-Youtube-Shorts-Generator)
+
+[AI B-roll generator](https://github.com/Anil-matcha/AI-B-roll)
