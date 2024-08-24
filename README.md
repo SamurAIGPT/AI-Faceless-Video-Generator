@@ -4,6 +4,8 @@ Generate a video script, voice and a talking face completely with AI
 
 ### Youtube tutorial -> https://youtu.be/X1jJzTVOgvw
 
+### Medium tutorial -> https://medium.com/@anilmatcha/ai-faceless-video-generator-in-python-a-complete-tutorial-f29ea5c47516
+
 ## Overview
 
 Faceless Video Generator is a project that leverages the power of AI to create talking face videos based on just a topic. Using `sadtalker` for face animation, gTTS for AI voice and OpenAI's language model to generate scripts, this project provides an end-to-end solution for generating personalized videos.
