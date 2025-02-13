@@ -75,6 +75,8 @@ Enjoy creating your personalized talking face videos!
 
 ### Other useful Video AI Projects
 
+[AI Influencer generator](https://github.com/SamurAIGPT/AI-Influencer-Generator)
+
 [Text to Video AI](https://github.com/SamurAIGPT/Text-To-Video-AI)
 
 [AI Youtube Shorts Generator](https://github.com/SamurAIGPT/AI-Youtube-Shorts-Generator)
