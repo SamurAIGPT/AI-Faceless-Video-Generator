@@ -1,84 +1,110 @@
-# Faceless Video Generator
+# AI Faceless Video Generator
 
-Generate a video script, voice and a talking face completely with AI
+[![GitHub stars](https://img.shields.io/github/stars/SamurAIGPT/AI-Faceless-Video-Generator?style=social)](https://github.com/SamurAIGPT/AI-Faceless-Video-Generator/stargazers)
+[![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+[![Python](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://github.com/SamurAIGPT/Faceless-Video-Generator/blob/main/FacelessColab.ipynb)
 
-### Youtube tutorial -> https://youtu.be/X1jJzTVOgvw
+Generate talking face videos from just a topic using AI. Combines script generation, text-to-speech, and face animation to create complete videos automatically.
 
-### Medium tutorial -> https://medium.com/@anilmatcha/ai-faceless-video-generator-in-python-a-complete-tutorial-f29ea5c47516
+## Tutorials
 
-If you wish to add faceless video generation into your application, here is an api to create faceless videos :- https://docs.vadoo.tv/docs/guide/create-an-ai-video
-
-## Overview
-
-Faceless Video Generator is a project that leverages the power of AI to create talking face videos based on just a topic. Using `sadtalker` for face animation, gTTS for AI voice and OpenAI's language model to generate scripts, this project provides an end-to-end solution for generating personalized videos.
-
-## Features
-
-- **Script Generation:** Generate a video script on any topic using OpenAI.
-- **AI Voice:** Generate voice for the script using gTTS
-- **Face Animation:** Create a talking avatar using `sadtalker`.
-- **Easy to Use:** Run the Jupyter notebook, enter the topic name, upload or select an avatar, and get a video output.
+- **YouTube**: [Watch Tutorial](https://youtu.be/X1jJzTVOgvw)
+- **Medium**: [Read Article](https://medium.com/@anilmatcha/ai-faceless-video-generator-in-python-a-complete-tutorial-f29ea5c47516)
 
 ## Demo
 
-<video width="600" controls>
-  <source src="https://github.com/SamurAIGPT/Faceless-Video-Generator/blob/main/Demo/Demo1.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
-## Installation
+https://github.com/SamurAIGPT/Faceless-Video-Generator/blob/main/Demo/Demo1.mp4
 
-To use the Faceless-Video-Generator, follow these steps:
+## Features
 
-1. Clone the repository:
+- **Script Generation** - Generate video scripts on any topic using OpenAI GPT
+- **AI Voice** - Convert scripts to natural-sounding speech with gTTS
+- **Face Animation** - Create realistic talking avatars with SadTalker
+- **End-to-End Pipeline** - From topic to video in one workflow
+- **Custom Avatars** - Use any face image as your video presenter
 
-   ```bash
-   git clone https://github.com/SamurAIGPT/Faceless-Video-Generator.git
-   cd Faceless-Video-Generator
-   ```
+## How It Works
 
-2. Run the Jupyter notebook `FacelessColab.ipynb` or upload it to Google Colab.
+```
+Topic Input → GPT Script → gTTS Voice → SadTalker Animation → Video Output
+```
 
-## Usage
+1. Enter a topic for your video
+2. AI generates a compelling script
+3. Text-to-speech creates the voiceover
+4. SadTalker animates the avatar to match the audio
+5. Get your complete talking-head video
 
-1. Open the Jupyter notebook `FacelessColab.ipynb` in your preferred environment.
-2. Follow the instructions within the notebook:
-   - Enter the topic name for the script generation.
-   - Select or upload an avatar image.
-   - Run the notebook cells to generate the talking face video.
+## Quick Start
+
+### Option 1: Google Colab (Recommended)
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://github.com/SamurAIGPT/Faceless-Video-Generator/blob/main/FacelessColab.ipynb)
+
+1. Open the Colab notebook
+2. Run all cells
+3. Enter your topic and avatar
+4. Download your video
+
+### Option 2: Local Installation
+
+```bash
+# Clone the repository
+git clone https://github.com/SamurAIGPT/AI-Faceless-Video-Generator.git
+cd AI-Faceless-Video-Generator
+
+# Install dependencies
+pip install -r requirements.txt
+
+# Run the Jupyter notebook
+jupyter notebook FacelessColab.ipynb
+```
 
 ## Requirements
 
-- Python 3.x
-- Jupyter Notebook
-- `sadtalker`
-- gTTS
-- OpenAI API key (for script generation)
+- Python 3.8+
+- OpenAI API key
+- GPU recommended for SadTalker (or use Colab)
+
+## API Alternative
+
+Want to skip the setup? Use the [Vadoo AI API](https://docs.vadoo.tv/docs/guide/create-an-ai-video) to generate faceless videos programmatically:
+
+```python
+import requests
+
+response = requests.post(
+    "https://viralapi.vadoo.tv/api/generate_video",
+    headers={"X-API-KEY": "your_api_key"},
+    json={"topic": "Your Topic Here"}
+)
+```
+
+## Tech Stack
+
+| Component | Technology |
+|-----------|------------|
+| Script Generation | OpenAI GPT |
+| Text-to-Speech | gTTS |
+| Face Animation | SadTalker |
+| Notebook Runtime | Google Colab |
 
 ## Contributing
 
-Contributions are welcome! If you have any ideas or find any issues, please open an issue or a pull request.
+Contributions are welcome! Feel free to submit a Pull Request.
+
+## Follow for Updates
+
+- [Anil Chandra Naidu Matcha](https://twitter.com/matchaman11)
+- [Ankur Singh](https://twitter.com/ankur_maker)
+
+## Related Projects
+
+- [AI-Youtube-Shorts-Generator](https://github.com/SamurAIGPT/AI-Youtube-Shorts-Generator) - Generate YouTube Shorts
+- [Text-To-Video-AI](https://github.com/SamurAIGPT/Text-To-Video-AI) - Text to video generation
+- [AI-Influencer-Generator](https://github.com/SamurAIGPT/AI-Influencer-Generator) - Create AI influencers
 
 ## License
 
-This project is licensed under the MIT License.
-
-## Acknowledgements
-
-- [sadtalker](https://sadtalker.github.io/) for the face animation.
-- [OpenAI](https://openai.com) for the script generation API.
-
-## Contact
-
-For any questions or support, please open an issue on the [GitHub repository](https://github.com/SamurAIGPT/Faceless-Video-Generator).
-
-Enjoy creating your personalized talking face videos!
-
-### Other useful Video AI Projects
-
-[AI Influencer generator](https://github.com/SamurAIGPT/AI-Influencer-Generator)
-
-[Text to Video AI](https://github.com/SamurAIGPT/Text-To-Video-AI)
-
-[AI Youtube Shorts Generator](https://github.com/SamurAIGPT/AI-Youtube-Shorts-Generator)
-
-[AI B-roll generator](https://github.com/Anil-matcha/AI-B-roll)
+MIT License - see [LICENSE](LICENSE) for details.
