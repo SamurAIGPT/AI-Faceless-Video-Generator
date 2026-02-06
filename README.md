@@ -69,7 +69,7 @@ jupyter notebook FacelessColab.ipynb
 
 ## API Alternative
 
-Want to skip the setup? Use the [Vadoo AI API](https://docs.vadoo.tv/docs/guide/create-an-ai-video) to generate faceless videos programmatically:
+Want to skip the setup? Use the [Vadoo AI API](https://docs.vadoo.tv/docs/guide/ai-story/create-an-ai-video) to generate faceless videos programmatically:
 
 ```python
 import requests
