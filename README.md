@@ -102,6 +102,8 @@ Contributions are welcome! Feel free to submit a Pull Request.
 ## Related Projects
 
 - [MuAPI](https://muapi.ai) — Unified API for image, video, and audio generation across hundreds of AI models. Start with the [video generation guide](https://muapi.ai/docs/video-generation) or [model playground](https://muapi.ai/playground).
+- [awesome-vibecoded-saas](https://github.com/Anil-matcha/awesome-vibecoded-saas) — broader catalog of open-source SaaS alternatives featuring this faceless-video workflow.
+- [Muapi open-source alternatives](https://muapi.ai/open-source/alternative) — compare the workflow with the paid creator tools it targets.
 - [AI-Youtube-Shorts-Generator](https://github.com/SamurAIGPT/AI-Youtube-Shorts-Generator) - Generate YouTube Shorts
 - [Text-To-Video-AI](https://github.com/SamurAIGPT/Text-To-Video-AI) - Text to video generation
 - [AI-Influencer-Generator](https://github.com/SamurAIGPT/AI-Influencer-Generator) - Create AI influencers
