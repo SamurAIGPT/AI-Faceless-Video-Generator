@@ -90,6 +90,27 @@ response = requests.post(
 | Face Animation | SadTalker |
 | Notebook Runtime | Google Colab |
 
+## Publishing Your Videos
+
+Once you've generated your video, publish it to TikTok, YouTube Shorts, and Instagram Reels using [Upload-Post](https://upload-post.com):
+
+```python
+import requests
+
+# Upload to multiple platforms at once
+response = requests.post(
+    "https://api.upload-post.com/upload",
+    headers={"Authorization": "Bearer YOUR_API_KEY"},
+    files={"video": open("output_video.mp4", "rb")},
+    data={
+        "title": "AI Generated Video",
+        "platforms": "tiktok,youtube,instagram"
+    }
+)
+```
+
+Upload-Post provides a single API to distribute videos across all major platforms. [Get your API key here](https://upload-post.com).
+
 ## Contributing
 
 Contributions are welcome! Feel free to submit a Pull Request.
